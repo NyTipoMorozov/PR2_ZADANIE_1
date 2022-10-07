@@ -58,6 +58,7 @@ namespace PR2_ZADANIE_1
             Button2.Background = Brushes.White;
             Button3.Background = Brushes.White;
             Button4.Background = Brushes.White;
+
         }
 
         private void txtEditor_SelectionChanged_1(object sender, RoutedEventArgs e)
@@ -86,6 +87,10 @@ namespace PR2_ZADANIE_1
 
         }
 
-    
+        private void Button6_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 Window1 = new Window1();
+            Window1.Show();
+        }
     }
 }

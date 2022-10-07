@@ -21,7 +21,7 @@
                  <MenuItem Header="_О разработчике" MouseEnter="MenuItem_MouseEnter" MouseLeave="MenuItem_MouseLeave" Width="400" Click="MenuItem_Click" ToolTip="Морозов Иван 402 группа ИСП" />
             </MenuItem>
             <Separator />
-            <ToolBar Height="43" Width="489">
+            <ToolBar Height="43" Width="400">
                 <Button>
                     <Image Width="30" Height="25" Source="https://cdn-icons-png.flaticon.com/512/751/751463.png"></Image>
                 </Button>
@@ -38,7 +38,15 @@
             <Button x:Name="Button3" Content="3" Click="Button1_Click_2" Width="23"/>
             <Button x:Name="Button4" Content="4" Click="Button4_Click" Width="23"/>
             <Button x:Name="Button5" Content="Сбросить" Click="Button5_Click" Width="75"/>
-            <MenuItem x:Name="fileExitMenuItem" Header="Exit" Click="txtEditor_SelectionChanged_1" Width="31" Background="#FFF7ABAB" Height="20" BorderBrush="Black"/>
+            <Button x:Name="Button6" Content="Задание 2" Click="Button6_Click" Width="69" Height="21">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF7CEDFF" Offset="0.003"/>
+                        <GradientStop Color="#FFC5F7FF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <MenuItem x:Name="fileExitMenuItem" Header="Exit" Click="txtEditor_SelectionChanged_1" Width="36" Background="#FFF7ABAB" Height="20" BorderBrush="Black"/>
         </Menu>
         <DockPanel Grid.ColumnSpan="2">
             <StatusBar DockPanel.Dock="Bottom">
