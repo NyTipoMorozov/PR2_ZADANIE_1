@@ -33,13 +33,12 @@
                     <TextBlock Text="" x:Name="TextBlock" />
                 </StatusBar>
             </ToolBar>
-            <Button x:Name="Button1" Content="1" Click="Button1_Click" Width="23"/>
+            <Button x:Name="Button1" Content="1" Click="Button1_Click" Width="23"  ToolTip="Изменить цвет окна"/>
             <Button x:Name="Button2" Content="2" Click="Button1_Click_1" Width="23"/>
             <Button x:Name="Button3" Content="3" Click="Button1_Click_2" Width="23"/>
             <Button x:Name="Button4" Content="4" Click="Button4_Click" Width="23"/>
             <Button x:Name="Button5" Content="Сбросить" Click="Button5_Click" Width="75"/>
-            <MenuItem x:Name="fileExitMenuItem" Header="Exit" Click="txtEditor_SelectionChanged" Width="31" Background="#FFF7ABAB" Height="20" BorderBrush="Black"/>
-            
+            <MenuItem x:Name="fileExitMenuItem" Header="Exit" Click="txtEditor_SelectionChanged_1" Width="31" Background="#FFF7ABAB" Height="20" BorderBrush="Black"/>
         </Menu>
         <DockPanel Grid.ColumnSpan="2">
             <StatusBar DockPanel.Dock="Bottom">
